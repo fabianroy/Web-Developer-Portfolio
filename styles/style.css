@@ -2,13 +2,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-header{
+header {
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -20,7 +20,7 @@ nav {
     padding: 50px 0px;
 }
 
-.btn-primary{
+.btn-primary {
     background-color: #fd6e0a;
     border-radius: 5px;
     border: 0px;
@@ -50,43 +50,43 @@ nav li {
     margin-right: 50px;
 }
 
-nav a{
+nav a {
     text-decoration: none;
     color: #474747;
 }
 
-.header{
+.header {
     background-color: #fff8f3;
     background-image: url('../images/bg-image.png');
     background-repeat: no-repeat;
     background-position: bottom right;
 }
 
-.banner{
+.banner {
     padding: 30px 0px 0px 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.banner .profile-pic{
+.banner .profile-pic {
     width: 500px;
 }
 
-.banner-greeting{
+.banner-greeting {
     font-size: 45px;
     margin-bottom: 0px;
     color: #fd6e0a;
 }
 
-.banner-title{
+.banner-title {
     font-size: 85px;
     font-weight: 700;
     color: #181818;
     margin-bottom: 20px;
 }
 
-.description{
+.description {
     font-size: 20px;
     color: #474747;
     margin-bottom: 40px;
@@ -95,34 +95,34 @@ nav a{
 
 /* Main Section Styles */
 
-main{
+main {
     max-width: 1140px;
     margin: auto;
 }
 
-main section{
+main section {
     margin-top: 130px;
 }
 
 /* About Section Styles */
 
-.about{
+.about {
     padding: 130px;
     border-radius: 10px;
     background-color: #fff8f3;
     font-family: 'Open Sans', sans-serif;
 }
 
-.about-info-container{
+.about-info-container {
     display: flex;
     justify-content: space-around;
 }
 
-.about-info{
+.about-info {
     text-align: center;
 }
 
-.section-title{
+.section-title {
     color: #181818;
     text-align: center;
     font-size: 35px;
@@ -131,8 +131,8 @@ main section{
     font-family: 'Open Sans', sans-serif;
 }
 
-.section-description{
-    color:#757575;
+.section-description {
+    color: #757575;
     text-align: justify;
     font-size: 18px;
     margin-bottom: 40px;
@@ -141,12 +141,12 @@ main section{
 
 /* Skill Section Styles */
 
-.what-i-do{
+.what-i-do {
     font-family: 'Open Sans', sans-serif;
     margin-bottom: 0px;
 }
 
-#what-i-do-description{
+#what-i-do-description {
     padding: 30px 130px;
     font-size: 18px;
     color: #757575;
@@ -155,31 +155,31 @@ main section{
     line-height: 1.8;
 }
 
-.skill img{
+.skill img {
     width: 30px;
     margin-bottom: 5px;
 }
 
-.skills-container{
+.skills-container {
     display: flex;
     gap: 24px;
 }
 
-.skill{
+.skill {
     padding: 40px 30px;
     border-radius: 5px;
     width: 280px;
     height: 300px;
     margin: auto;
     background-color: #ffffff;
-    box-shadow: 0px 6px 50px 0px rgba(0,0,0,0.06);
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
 
-.skill h3{
+.skill h3 {
     margin-bottom: 10px;
 }
 
-.skill-description{
+.skill-description {
     text-align: auto;
     line-height: 1.8;
     font-size: 14px;
@@ -188,11 +188,11 @@ main section{
 
 /* Styles for resume */
 
-.resume .section-title{
+.resume .section-title {
     margin: 80px 0px;
 }
 
-.resume-column-title{
+.resume-column-title {
     color: #181818;
     font-family: 'Open Sans', sans-serif;
     font-size: 30px;
@@ -200,39 +200,39 @@ main section{
     margin-bottom: 40px;
 }
 
-.resume-container{
+.resume-container {
     display: flex;
     gap: 50px;
     font-family: 'Open Sans', sans-serif;
 }
 
-.resume-item-title{
+.resume-item-title {
     color: #474747;
     font-size: 25px;
     margin-bottom: 10px;
 }
 
-.resume-item-institute{
+.resume-item-institute {
     color: #474747;
     margin-bottom: 10px;
 }
 
-.resume-item-description{
+.resume-item-description {
     color: #757575;
 }
 
-.resume-container hr{
+.resume-container hr {
     margin: 30px 0px;
 }
 
-.download-cv{
+.download-cv {
     text-align: center;
     margin-top: 80px;
 }
 
 /* Footer Styles */
 
-footer{
+footer {
     display: flex;
     gap: 100px;
     background-color: #fff8f3;
@@ -241,11 +241,13 @@ footer{
     font-family: 'Open Sans', sans-serif;
 }
 
-.footer-column{
+.footer-column {
     width: 50%;
 }
 
-.contact input[type="text"], input[type="email"], textarea{
+.contact input[type="text"],
+input[type="email"],
+textarea {
     display: block;
     margin-bottom: 25px;
     padding: 18px 35px;
@@ -256,11 +258,11 @@ footer{
     width: 100%;
 }
 
-.social-links a{
+.social-links a {
     color: #000;
     margin-right: 20px;
 }
 
-.fa-brands{
+.fa-brands {
     font-size: 24px;
 }
