@@ -234,7 +234,33 @@ main section{
 
 footer{
     display: flex;
+    gap: 100px;
     background-color: #fff8f3;
     padding: 130px 200px;
     margin-top: 80px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footer-column{
+    width: 50%;
+}
+
+.contact input[type="text"], input[type="email"], textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    background-color: #fff;
+    border: 0;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+}
+
+.social-links a{
+    color: #000;
+    margin-right: 20px;
+}
+
+.fa-brands{
+    font-size: 24px;
 }
