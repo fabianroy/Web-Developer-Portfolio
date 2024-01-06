@@ -2,11 +2,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
+header{
+    font-family: 'Open Sans', sans-serif;
+}
+
 nav {
     display: flex;
-    font-family: 'Open Sans', sans-serif;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     align-items: center;
+    margin: 0px 200px;
 }
 
 .btn-primary{
@@ -42,4 +46,18 @@ nav li {
 nav a{
     text-decoration: none;
     color: #474747;
+}
+
+.header{
+    background-color: #fff8f3;
+}
+
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.banner .profile-pic{
+    width: 500px;
 }
